@@ -25,7 +25,7 @@ function response($code, $msg, $data = null) {
         echo "{\"errcode\":$code,\"errmsg\":\"$msg\",\"data\":[" . join(',', $data) . "]}";
     } else {
         if ($data) {
-            echo "{\"errcode\":$code,\"errmsg\":\"$msg\",\"data\":$data";
+            echo "{\"errcode\":$code,\"errmsg\":\"$msg\",\"data\":$data}";
         } else {
             echo "{\"errcode\":$code,\"errmsg\":\"$msg\"}";
         }

@@ -7,9 +7,9 @@ return array(
     'APP_AUTOLOAD_REG' => false, // 是否开启SPL_AUTOLOAD_REGISTER
     'APP_AUTOLOAD_PATH' => 'Think.Util.', // __autoLoad 机制额外检测路径设置,注意搜索顺序
     /* 默认设定 */
-    'DEFAULT_APP' => '@', // 默认项目名称，@表示当前项目
-    'MODULE_ALLOW_LIST' => array('Home'),
-    'DEFAULT_MODULE' => 'Home',
+//    'DEFAULT_APP' => '@', // 默认项目名称，@表示当前项目
+//    'MODULE_ALLOW_LIST' => array('Home'),
+//    'DEFAULT_MODULE' => 'Home',
     //  'DEFAULT_CHARSET' => 'utf-8', // 默认输出编码
     'DEFAULT_TIMEZONE' => 'PRC', // 默认时区
 //      'DEFAULT_AJAX_RETURN'   => 'JSON', // 默认AJAX 数据返回格式,可选JSON XML ...
@@ -56,25 +56,18 @@ return array(
     'SHOW_PAGE_TRACE' => false, // 显示页面Trace信息 由Trace文件定义和Action操作赋值
     'SHOW_ERROR_MSG' => true, // 显示错误信息
 
-    /* SAM_MQTT服务器配置 */
-    'MQTT_HOST' => '119.23.18.15',
-    'MQTT_PORT' => '1883',
-    'MQTT_USER' => 'dog-devsrv',
-    'MQTT_PASS' => '484848',
+    /* CSS路径 */
+    'CSS_URL' => '/CloudPlayerServer/Application/Public/css',
+    'IMG_URL' => '/CloudPlayerServer/Application/Public/images',
+    'JS_URL' => '/CloudPlayerServer/Application/Public/js',
     /* 短信验证地址 */
-    'PHONE_CODE_URL' => 'https://app.cloopen.com:8883',
-    'sid' => '8a48b5514c2fd22f014c418a95750b4a',
-    'auth_token' => 'c0ac74ce45b74965a7ce32a8f00aa219',
-    'TEMPLATEID' => '159345',
+
     /* 极光推送设置 */
-    'APP_KEY' => '8708d22a2777844638baeb96',
-    'MASTER_SECRET' => '3210845bf60d52e2171e7718',
+
     /* 设备状态 */
     'DEVICE_HOST' => '127.0.0.1',
     'DEVICE_HOST_PORT' => '4001',
-    'DOMAIN' => 'http://localhost/',
-    /* 高德 */
-    "AMAP_KEY" => '8668f6085cb8575d7c340bd77040ab0b',
-    'AMAP_CONVERT_URL' => 'http://restapi.amap.com/v3/assistant/coordinate/convert'
+    'DOMAIN' => 'http://192.168.3.23/',
+
 )
 ?>

@@ -298,6 +298,7 @@ abstract class Controller {
 	 * 析构方法
 	 * @access public
 	 */
+
 	public function __destruct() {
 		// 执行后续操作
 		Hook::listen('action_end');
