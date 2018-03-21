@@ -22,6 +22,7 @@ define('PUB_PATH','./Application/Public/');
 //引入公共文件
 require PUB_PATH.'lib/public.php';
 require PUB_PATH.'lib/getid3/getid3.php';
+header("Access-Control-Allow-Origin: *");
 //引入SQTT文件
 //require(PUB_PATH.'SAM/php_sam.php');;
 // 引入ThinkPHP入口文件
